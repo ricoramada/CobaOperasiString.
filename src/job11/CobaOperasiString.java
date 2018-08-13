@@ -9,5 +9,9 @@ public class CobaOperasiString {
         System.out.println("\"" + x + "\"panjang karakter = " + x.length());
         
         System.out.println("x adalah kosong : " + x.isEmpty());
+        
+        String y = "";
+        System.out.println("Isi variabel y : " + y);
+        System.out.println("y adalah kosong : " + y.isEmpty());
     }
 }
