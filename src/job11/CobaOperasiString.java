@@ -43,5 +43,23 @@ public class CobaOperasiString {
         System.out.println("isi variabel t tanpa spasi : \"" + t.trim() +"\"");
         
         System.out.println("gabungkan isi variabel x dan r : " + x.concat(r));
+        
+        System.out.println("karakter mulai posisi 3 di variabel x : " + x.substring(3));
+        
+        System.out.println("karakter dari posisi 3-5 divariabel x : " + x.substring(3,6));
+        
+        String tclean = t.trim();
+        System.out.println("isi variabel tclean : " + t.trim());
+        System.out.println("rubah 'i' jadi 'E' di variabel tclean : " + tclean.replace("i", "E"));
+        
+        String[] arrT = tclean.split(" ");
+        System.out.println("pecah kata divariabel tclean : ");
+        for(int i = 0; i < arrT.length; i++)
+            System.out.println(arrT[i]);
+        
+        String[] arrTr = tclean.split("t");
+        System.out.println("pecah berdasarkan huruf 'r' di variabel tclean : ");
+        for(int i = 0; i < arrTr.length; i++)
+        System.out.println(arrTr[i]);
     }
 }
